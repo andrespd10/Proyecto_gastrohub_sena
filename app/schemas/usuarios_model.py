@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Boolean
 from app.core.database import Base
 
-class User(Base):
+class Usuarios(Base):
     # Nombre de la tabla en MySQL Workbench
     __tablename__ = "usuarios"
 
